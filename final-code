@@ -285,7 +285,7 @@ plot.pglm(freq.ocarea.log)
 
 
 ```{r}
-#Possibly a seq tree for the supplimentary information at the end of the report; updating the tree tip labels from the old names to the current ones for seq tree
+#Updating the tree tip labels from the old names to the current ones for seq tree
 phy.tree.seq[[1]]$tip.label[phy.tree.seq[[1]]$tip.label=="Carpodacus_mexicanus"] <- "Haemorhous mexicanus"
 phy.tree.seq[[1]]$tip.label[phy.tree.seq[[1]]$tip.label=="Carpodacus_purpureus"] <- "Haemorhous purpureus"
 phy.tree.seq[[1]]$tip.label[phy.tree.seq[[1]]$tip.label=="Vermivora_ruficapilla"] <- "Leiothlypis ruficapilla"
